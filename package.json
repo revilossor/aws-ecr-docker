@@ -1,0 +1,22 @@
+{
+  "name": "aws-ecr-docker",
+  "version": "0.0.0",
+  "description": "testing docker images in aws ecr",
+  "main": "app/main.js",
+  "scripts": {
+    "precommit": "standard",
+    "start": "npx nodemon app/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ".."
+  },
+  "author": "oliver.ross@hotmail.com",
+  "license": "SEE LICENCE IN LICENCE",
+  "dependencies": {
+    "express": "^4.16.2",
+    "husky": "^0.14.3",
+    "nodemon": "^1.13.0",
+    "standard": "^10.0.3"
+  }
+}

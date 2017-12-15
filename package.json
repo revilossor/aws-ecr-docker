@@ -4,7 +4,7 @@
   "description": "testing docker images in aws ecr",
   "main": "app/main.js",
   "scripts": {
-    "precommit": "standard",
+    "precommit": "standard --fix",
     "start": "npx nodemon app/main.js"
   },
   "repository": {
